@@ -4,3 +4,5 @@ echo "__pycache__/
 *.log
 venv/
 .vscode/" > .gitignore
+
+venv2/

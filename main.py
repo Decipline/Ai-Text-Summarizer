@@ -2,6 +2,9 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from llm_summarizer import LLMSummarizer
+from dotenv import load_dotenv
+
+load_dotenv()
 import os
 
 # Initialize FastAPI app
